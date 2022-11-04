@@ -1,0 +1,268 @@
+:root{
+    --accent-color: #2196F3;
+    --title-color: #212121;
+    --text-color: #757575;
+    --clear-white: #FFFFFF;
+}
+/*   ------------------------------  STUDIO ----------------------  */
+/* 0 ------------------ smth main */
+body {
+    color: var(--text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-style: 400;
+}
+/* remove points in all list*/
+body ul {
+    list-style: none;
+}
+
+/* 1 ---------------------- HEADER */
+.header{
+    background: var(--clear-white);
+}
+
+.navigation .logo {
+    color: #000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo .logo-web {
+    color: var(--accent-color);
+}
+
+.site-nav .link,
+.mail-tel .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link {
+    color: var(--title-color);
+}
+
+/* при наведенні змінюється колір + фокус */
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.mail-tel .link {
+    color: var(--text-color);
+}
+
+.mail-tel .link:hover,
+.mail-tel .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+
+/* 2 -------------------------- FOOTER */
+.footer {
+    background: #2F303A;
+}
+
+.footer .logo {
+    color: var(--clear-white);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19x;
+    text-decoration: none;
+}
+
+.address-item-mail-tel .link,
+.address-item-address .link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    letter-spacing: 0.03em;
+}
+
+.address-item-mail-tel .link {
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+.address-item-mail-tel .link:hover,
+.address-item-mail-tel .link:focus,
+.address-item-address .link:hover,
+.address-item-address .link:focus {
+    color: var(--accent-color);
+}
+
+.address-item-address .link {
+    color: var(--clear-white);
+}
+
+
+/* 3 ------------------------------ MAIN = Studio */
+/* section 1 */
+.hero {
+    background-color: #2F303A;;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.hero-title {
+    color: var(--clear-white);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero .button {
+    font-family: inherit;
+    font-style: 400;
+    background-color: var(--accent-color);
+    color: var(--clear-white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero .button:hover,
+.hero .button:focus {
+    background-color: var(--accent-color);
+    border: none;
+}
+
+/* section 2 */
+.quality-item-title{
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.quality-item-subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* .quality,
+.what-do{
+    background-color: #F5F5F5;
+} */
+
+/* section 3-4 */
+.team-title,
+.what-do-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-title,
+.team-item-title,
+.what-do-title {
+    color: var(--title-color);
+}
+
+.team-item {
+    background-color: var(--clear-white);
+}
+
+.team-item-title,
+.team-item-subtitle{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team-item-title {
+    font-weight: 500;
+}
+
+.team-item-subtitle {
+    font-weight: 400;
+}
+
+/* 3 ------------------------------ MAIN = Portfolio */
+/* section 1 */
+
+.type-work-list .button:hover,
+.type-work-list .button:focus {
+    background-color: var(--accent-color);
+    color: var(--clear-white);
+    border: none;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+/* .type-work-list{
+    background-color: #F5F4FA;
+} */
+
+.type-work-list .button {
+    font-family: inherit;
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    background-color: #F5F4FA;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: none;
+    border: none;
+}
+
+.type-work-photo-item {
+    background-color: var(--clear-white);
+    border: 1px solid #EEEEEE;
+}
+
+.type-work-photo-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+
+.type-work-photo-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--text-color);
+}
+
+.type-work-photo-item .link{
+    text-decoration: none;
+}
