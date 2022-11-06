@@ -50,7 +50,15 @@ img{
     display: block;
 }
 
-.studio .container {
+.container {
+    box-sizing: content-box;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/* .studio .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -62,7 +70,7 @@ img{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-}
+} */
 
 /* 1 ---------------------- HEADER */
 .header{
@@ -319,8 +327,8 @@ img{
     display: flex;
 }
 
-.what-do-list .what-do-item:not(:last-child) {
-    margin-right: 30px;
+.what-do-list {
+    gap: 30px;
 }
 
 /* section 4 */
@@ -338,8 +346,8 @@ img{
     display: flex;
 }
 
-.team-list .team-item:not(:last-child) {
-    margin-right: 30px;
+.team-list{
+    gap: 30px;
 }
 
 .team-item {
@@ -442,8 +450,8 @@ For instance:
 where 60px = 2(amount of margins = n-1) * 30px(margins)
 */
 
-.type-work-photo-item:not(:nth-child(3n)){
-    margin-right: 30px;
+.type-work-photo-list{
+    gap: 30px;
 }
 
 
