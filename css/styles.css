@@ -28,6 +28,9 @@ h6,
 p{
     margin: 0;
 }
+body{
+    margin: 0;
+}
 
 ul{
     list-style: none;
@@ -222,6 +225,10 @@ img{
     margin: 0 auto;
 }
 
+.hero-order-service{
+    margin-top: 30px;
+}
+
 .hero .button {
     display: inline-block;
     font-family: inherit;
@@ -251,8 +258,9 @@ img{
 }
 
 /* section 2 */
-.quality {
-    margin-top: 94px;
+.quality .container{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .quality-list{
@@ -299,11 +307,7 @@ img{
 /* section 3 */
 .what-do .container {
     padding-top: 0;
-    padding-bottom: 0;
-}
-
-.what-do{
-    margin-top: 94px;
+    padding-bottom: 94px;
 }
 
 .what-do-list{
@@ -318,7 +322,6 @@ img{
 /* section 4 */
 .team {
     background-color: #F5F4FA;
-    margin-top: 94px;
 }
 
 .team .container {
@@ -367,9 +370,9 @@ img{
 /* 3 ------------------------------ MAIN = Portfolio */
 
 /* section 1 */
-.type-work .container{
-    margin-top: 94px;
-    margin-bottom: 94px;
+.container-choose{
+    padding-top: 94px;
+    padding-bottom: 34px;
 }
 
 .type-work-list{
@@ -413,7 +416,7 @@ img{
 
 /* section 2 */
 .container-product{
-    margin-top: 34px;
+    padding-bottom: 94px;
 }
 
 .type-work-photo-list{
