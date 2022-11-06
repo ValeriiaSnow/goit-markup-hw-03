@@ -87,6 +87,10 @@ img{
     margin-right: 50px;
 }
 
+.header{
+    border-bottom: 1px solid #ECECEC;
+}
+
 /* logo */
 .navigation .logo {
     color: #000000;
