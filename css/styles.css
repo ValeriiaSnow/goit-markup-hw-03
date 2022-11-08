@@ -57,11 +57,15 @@ img{
     margin: 0 auto;
 }
 
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* 1 ---------------------- HEADER */
 .header{
     background: var(--clear-white);
-    /* padding-top: 24px;
-    padding-bottom: 25px; */
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-container,
@@ -80,10 +84,6 @@ img{
     margin-right: 50px;
 }
 
-.header{
-    border-bottom: 1px solid #ECECEC;
-}
-
 /* logo */
 .navigation .logo {
     color: #000000;
@@ -93,6 +93,8 @@ img{
     line-height: 1.19;
     text-decoration: none;
     margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .logo .logo-web {
@@ -116,12 +118,13 @@ img{
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
 }
 
 .site-nav .link {
     color: var(--title-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 /* при наведенні змінюється колір + фокус */
@@ -246,11 +249,6 @@ img{
 }
 
 /* section 2 */
-.quality{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .quality-list{
     display: flex;
     flex-wrap: wrap;
@@ -295,31 +293,24 @@ img{
 /* section 3 */
 .what-do {
     padding-top: 0;
-    padding-bottom: 94px;
 }
 
 .what-do-list{
     margin-top: 50px;
     display: flex;
-}
-
-.what-do-list {
     gap: 30px;
 }
 
 /* section 4 */
 .team {
     background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    /* padding-top: 94px;
+    padding-bottom: 94px; */
 }
 
 .team-list{
     margin-top: 50px;
     display: flex;
-}
-
-.team-list{
     gap: 30px;
 }
 
@@ -355,11 +346,6 @@ img{
 /* 3 ------------------------------ MAIN = Portfolio */
 
 /* section 1 */
-.type-work {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .type-work-list{
     display: flex;
     justify-content: center;
@@ -404,6 +390,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     margin-top: 34px;
+    gap: 30px;
 }
 
 .type-work-photo-item {
@@ -419,14 +406,6 @@ For instance:
     width: calc((100% - 60px) /3);}
 where 60px = 2(amount of margins = n-1) * 30px(margins)
 */
-
-.type-work-photo-list{
-    gap: 30px;
-}
-
-.type-work-photo-item:not(:nth-last-child(-n + 3)) {
-    margin-bottom: 30px;
-}
 
 .type-work-container{
     padding-left: 24px;
